@@ -6,7 +6,8 @@ First You need to install 3 packages in your linux machine
  
  
  step1 :   update your linux Repo.
-        sudo apt-get update
+         
+         sudo apt-get update
  
  Next::
  
@@ -21,7 +22,8 @@ First You need to install 3 packages in your linux machine
   <b>Package 3.  Cisco Packet Tracer </b>
   Step 1::
   u need to download this file
-         https://drive.google.com/file/d/1CK1Uz5XX60C3VgxFu6Vu2HRpVINFcyno/view?usp=sharing
+        
+        https://drive.google.com/file/d/1CK1Uz5XX60C3VgxFu6Vu2HRpVINFcyno/view?usp=sharing
   
   Step 2 ::
         cd Downloads
