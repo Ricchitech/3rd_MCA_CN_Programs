@@ -31,12 +31,11 @@ First You need to install 3 packages in your linux machine
         sudo chmod +x PacketTracer_731_amd64.deb
   
  Step3 
-        sudo apt install ./PacketTracer_731_amd64.deb
-      
-      (give all permissions)
-  
-  
-  
+ 
+        sudo apt install ./PacketTracer_731_amd64.deb          
+        
+  # (give all permissions)
+
   
   #Excecution of Programs
   
@@ -46,14 +45,13 @@ First You need to install 3 packages in your linux machine
   
          ns <program_name.tcl>    #/this line will compile the tcl program
          
-         (if u get any permission error use below line of code)
+  (if u get any permission error use below line of code)
          
          sudo ns <program_name.tcl>    
          
          
  after above steps::
             (run above compiled files ( .nam files) using nam emulator )
-            
             Type
             
             nam <program_name.nam>    
