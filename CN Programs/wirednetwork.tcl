@@ -18,7 +18,7 @@
 	set n3 [$ns node]
 #connecting through links
 	$ns duplex-link $n0 $n2 10Mb 10ms DropTail
-	$ns duplex-link $n1 $n2 10Kb 100ms DropTail
+	$ns duplex-link $n1 $n2 10Mb 10ms DropTail
 	$ns duplex-link $n2 $n3 10Kb 100ms DropTail
 #agents[TCP] creation
 	set t [new Agent/TCP]
